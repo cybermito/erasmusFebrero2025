@@ -1,0 +1,24 @@
+/* Combinadores descencientes */
+
+div p {
+    color: lime;
+}
+
+/* Hijo directo */
+
+div > p {
+    background: plum;
+}
+
+/* Elemento adyacente */
+
+div + section {
+    background: salmon;
+}
+
+/* General de hermanos */
+
+div ~ p {
+    color: red;
+}
+

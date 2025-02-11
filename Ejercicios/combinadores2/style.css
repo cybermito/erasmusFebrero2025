@@ -1,0 +1,31 @@
+/* Descencientes */
+
+div p {
+    color: lightcoral;
+    background: grey;
+}
+
+/* Hijo Directo */
+
+div > p {
+    background: lightslategray;
+}
+
+/* Elemento Adyadcente */
+
+h1 + div {
+    background: rgb(58, 235, 229) ;
+}
+
+/* General de hermanos */
+
+div ~ p{
+    font-size: 1.5em;
+    background-color: aquamarine;
+}
+
+/* Aplicar mismo estilos a diferentes selectores */
+
+div, p, a {
+    background: lightsalmon;
+}
